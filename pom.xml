@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cjlu</groupId>
+    <artifactId>Material-testing</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>test-dependencies</module>
+        <module>test-commons</module>
+        <module>test-domain</module>
+        <module>test-web-admin</module>
+        <module>test-web-ui</module>
+        <module>test-web-api</module>
+        <module>test-external</module>
+    </modules>
+</project>

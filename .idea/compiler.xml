@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test-commons" />
+        <module name="test-domain" />
+        <module name="test-web-admin" />
+        <module name="test-web-api" />
+        <module name="test-web-external" />
+        <module name="test-web-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Material-testing" target="1.5" />
+      <module name="test-commons" target="1.8" />
+      <module name="test-dependencies" target="1.8" />
+      <module name="test-domain" target="1.8" />
+      <module name="test-web-admin" target="1.8" />
+      <module name="test-web-api" target="1.8" />
+      <module name="test-web-external" target="1.8" />
+      <module name="test-web-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
