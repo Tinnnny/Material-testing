@@ -1,6 +1,6 @@
 package com.cjlu.material.testing.commons.dto;
 
-import com.funtl.my.shop.commons.persistence.BaseEntity;
+import com.cjlu.material.testing.commons.persistence.BaseEntity;
 
 import java.io.Serializable;
 import java.util.List;
